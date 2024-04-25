@@ -4,7 +4,7 @@ import { icons } from "../../utils/constants";
 import { NavLink } from "react-router-dom";
 function SideBar() {
   return (
-    <div className="sidebar" id="sidebar">
+    <div className="sidebar big-menu" id="sidebar">
       <div className="container">
         <ul>
           <NavLink to={"/"} end>
