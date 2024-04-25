@@ -14,7 +14,7 @@ function Home() {
 
   useEffect(() => {
     if (!videos.data) {
-      dispatch(getVideosBySearch('القران'))
+      dispatch(getVideosBySearch('ياسر الدوسري ستوري المؤمنون'))
     }
   }, [dispatch, videos.data])
   return (
