@@ -35,7 +35,7 @@ function Header() {
       sidebar.classList.toggle('details-menu')
     }
 
-    console.log(sidebar.clientWidth)
+    // console.log(sidebar.clientWidth)
   }
   return (
     <div className="header">
@@ -47,7 +47,7 @@ function Header() {
           <Link to={'/'}>
             <div className="logo">
               <LazyLoadImage src={logoLight} alt="Youtube" effect="blur" />
-              <span>You!</span>
+              <span>ShaToT</span>
             </div>
           </Link>
         </div>

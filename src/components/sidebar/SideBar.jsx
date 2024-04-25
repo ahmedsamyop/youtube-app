@@ -1,13 +1,13 @@
-import React from "react";
-import "./sidebar.css";
-import { icons } from "../../utils/constants";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import './sidebar.css'
+import { icons } from '../../utils/constants'
+import { NavLink } from 'react-router-dom'
 function SideBar() {
   return (
     <div className="sidebar big-menu" id="sidebar">
       <div className="container">
         <ul>
-          <NavLink to={"/"} end>
+          <NavLink to={'/'} end>
             <li>
               <div className="icon">{icons.home}</div>
               <span className="title">Home</span>
@@ -65,7 +65,7 @@ function SideBar() {
         </ul>
       </div>
     </div>
-  );
+  )
 }
 
-export default SideBar;
+export default SideBar
