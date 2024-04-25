@@ -1,0 +1,19 @@
+.error-fetch {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #181818;
+  color: #fff;
+  border-radius: 8px;
+}
+.error-fetch .content {
+  font-size: 20px;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    var(--textColor) 0%,
+    var(--textHover) 30%,
+    var(--textColor) 60%,
+    var(--boxColor) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

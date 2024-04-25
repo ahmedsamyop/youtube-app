@@ -1,0 +1,38 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBars,
+  faMagnifyingGlass,
+  faSquarePlus,
+  faBell,
+  faHouse,
+  faCirclePlay,
+  faHandshake,
+  faBookmark,
+  faClockRotateLeft,
+  faClock,
+  faThumbsUp,
+  faFireFlameCurved,
+  faMusic,
+  faPodcast,
+  faGamepad,
+  faTrophy,
+} from "@fortawesome/free-solid-svg-icons";
+
+export const icons = {
+  menu: <FontAwesomeIcon icon={faBars} />,
+  search: <FontAwesomeIcon icon={faMagnifyingGlass} />,
+  create: <FontAwesomeIcon icon={faSquarePlus} />,
+  notification: <FontAwesomeIcon icon={faBell} />,
+  home: <FontAwesomeIcon icon={faHouse} />,
+  shorts: <FontAwesomeIcon icon={faCirclePlay} />,
+  subscribe: <FontAwesomeIcon icon={faHandshake} />,
+  library: <FontAwesomeIcon icon={faBookmark} />,
+  history: <FontAwesomeIcon icon={faClockRotateLeft} />,
+  watchLater: <FontAwesomeIcon icon={faClock} />,
+  like: <FontAwesomeIcon icon={faThumbsUp} />,
+  trending: <FontAwesomeIcon icon={faFireFlameCurved} />,
+  music: <FontAwesomeIcon icon={faMusic} />,
+  live: <FontAwesomeIcon icon={faPodcast} />,
+  gaming: <FontAwesomeIcon icon={faGamepad} />,
+  sport: <FontAwesomeIcon icon={faTrophy} />,
+};

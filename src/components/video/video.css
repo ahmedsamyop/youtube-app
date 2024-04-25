@@ -1,0 +1,80 @@
+.video {
+  padding: 5px;
+  transition: var(--transition);
+}
+.video:hover {
+  background-color: var(--boxColor);
+  border-radius: 8px;
+}
+.video .image {
+  position: relative;
+  width: 100%;
+}
+.video .image span {
+  width: 100% !important;
+  max-width: 100% !important;
+  border-radius: 10px !important;
+}
+.video .image span img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.video .image p {
+  position: absolute;
+  right: 4px;
+  bottom: 8px;
+  background-color: var(--bgHover);
+  color: var(--textColor);
+  font-size: 13px;
+  padding: 4px;
+  border-radius: 8px;
+  letter-spacing: 1.1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video .info {
+  margin-top: 10px;
+  display: flex;
+}
+.video .info .channel-img {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: var(--bgHover);
+}
+.video .info .channel-img img {
+  min-width: 100%;
+  min-height: 100%;
+  background-size: contain;
+}
+/* .video .info .text {
+} */
+.video .info .text h3 {
+  color: var(--textColor);
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.video .info .text p,
+.video .info .text span {
+  color: var(--secTextColor);
+  font-size: 14px;
+}
+.video .info .text p {
+  margin-bottom: 2px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.video .info .text p:hover {
+  color: var(--textHover);
+}
+/*.video .info .text span {
+} */

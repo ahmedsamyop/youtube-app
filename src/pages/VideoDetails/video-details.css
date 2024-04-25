@@ -1,0 +1,103 @@
+.details {
+  position: relative;
+  background-color: var(--mainColor);
+  min-height: calc(100vh - 60px);
+}
+.details .sidebar {
+  width: 60px;
+  padding-right: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: var(--transition);
+  transform: translateX(-100px);
+}
+.details .sidebar .container {
+  position: fixed;
+}
+.details .wrapper {
+  padding-top: 40px;
+  display: flex;
+}
+.details .wrapper .video-container {
+  position: relative;
+  flex-basis: 100%;
+  margin-bottom: 40px;
+}
+.details .wrapper .video-container .video-player {
+  min-height: 600px;
+  max-height: 600px;
+}
+.details .wrapper .video-container .info {
+  margin-top: 20px;
+  display: flex;
+}
+.details .wrapper .video-container .info .channel-img {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  background-color: var(--bgHover);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.details .wrapper .video-container .info .channel-img span {
+  min-width: 100% !important;
+  min-height: 100% !important;
+  background-size: contain;
+}
+.details .wrapper .video-container .info .channel-img span img {
+  min-width: 100%;
+  min-height: 100%;
+  background-size: contain;
+}
+/* .details .wrapper .video-container .info .text {
+} */
+.details .wrapper .video-container .info .text h3 {
+  color: var(--textColor);
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.details .wrapper .video-container .info .text p,
+.details .wrapper .video-container .info .text span {
+  color: var(--secTextColor);
+  font-size: 14px;
+}
+.details .wrapper .video-container .info .text p {
+  margin-bottom: 2px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.details .wrapper .video-container .info .text p:hover {
+  color: var(--textHover);
+}
+/*.details .wrapper .video-container .info .text span {
+} */
+.details .wrapper .suggestion {
+  flex-basis: 30%;
+  padding-bottom: 20px;
+}
+.details .wrapper .suggestion a {
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  /* background-color: antiquewhite; */
+  border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+  .details .wrapper {
+    flex-direction: column;
+  }
+  .details .wrapper .suggestion {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+}

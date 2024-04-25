@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mainColor: #0f0f0f;
+  --secendColor: #222222;
+  --boxColor: #ffffff0f;
+  --bgHover: #3d3d3d;
+  --textColor: #f1f1f1;
+  --secTextColor: #aaa;
+  --textHover: rgb(63 136 193);
+  --transition: 0.4s;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--mainColor);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* width */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: var(--mainColor);
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: var(--bgHover);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Event Button Menu */
+.small-menu {
+  position: absolute;
+  transition: var(--transition) !important;
+  transform: translateX(-500px) !important;
+}
+.big-menu {
+  transition: var(--transition) !important;
+  width: 65px !important;
+  padding-right: 0px;
+}
+.details-menu {
+  transform: translateX(0px) !important;
+}
