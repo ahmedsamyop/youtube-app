@@ -1,9 +1,9 @@
-import React from "react";
-import "./layout.css";
-import Header from "../../components/Header/Header";
-import { Outlet } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
+import React from 'react'
+import './layout.css'
+import Header from '../../components/Header/Header'
+import { Outlet } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleChevronUp } from '@fortawesome/free-solid-svg-icons'
 
 function Layout() {
   return (
@@ -13,15 +13,15 @@ function Layout() {
       <div
         className="gotop"
         onClick={() => {
-          window.scrollTo({ top: 0, behavior: "smooth" });
+          window.scrollTo({ top: 0, behavior: 'smooth' })
         }}
       >
         <FontAwesomeIcon icon={faCircleChevronUp} />
       </div>
       <div className="footer">
-        Copyright 2022 ©{" "}
+        Copyright 2022 ©{' '}
         <a
-          href="https://api.whatsapp.com/send/?phone=01110649108&text=Welcome+I%27m+Ahmed+Samy&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=0201110649108&text=Welcome+I%27m+Ahmed+Samy&type=phone_number&app_absent=0"
           target="_blank"
           rel="noreferrer"
         >
@@ -29,7 +29,7 @@ function Layout() {
         </a>
       </div>
     </div>
-  );
+  )
 }
 
-export default Layout;
+export default Layout
