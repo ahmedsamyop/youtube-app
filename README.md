@@ -1,6 +1,6 @@
 # youtube-app
 
-Youtube App with youtube-v3-alternative API built with ReactJS, Redux, Redux Toolkit, React Router DOM, Docker, CircleCI, and deployed on Netlify
+Shatot Youtube App with youtube-v3-alternative API built with ReactJS, Redux, Redux Toolkit, React Router DOM, Docker, CircleCI, and deployed on Netlify
 
 With the YouTube app, you can easily search for and watch all your favorite videos without any annoying ads interrupting your viewing experience
 
